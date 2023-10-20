@@ -44,5 +44,11 @@
     "ace-builds": "^1.4.12",
     "design-comuni-plone-theme": "*",
     "design-reack-kit": "*"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedTurtle/volto-io-comune-v2.git"
+  },
+  "author": "redturtle",
+  "homepage": "https://github.com/RedTurtle/volto-io-comune-v2#readme"
 }
