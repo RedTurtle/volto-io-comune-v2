@@ -1,3 +1,15 @@
+
+
+## [0.1.4](https://github.com/RedTurtle/volto-io-comune-v2/compare/v0.1.3...v0.1.4) (2023-10-20)
+
+
+### Maintenance
+
+* changed name ([1e14bde](https://github.com/RedTurtle/volto-io-comune-v2/commit/1e14bde8ae8e4a94f0aa353226c1fd6d0f4f7b89))
+* changed yarn.lock ([84a9b1e](https://github.com/RedTurtle/volto-io-comune-v2/commit/84a9b1ed2b9b5a0988d515753bc0944b497d3cd8))
+* configured release ([b96642c](https://github.com/RedTurtle/volto-io-comune-v2/commit/b96642c45e40da3195762bc2bc8e82d7d51b3580))
+* configured release ([4ebd71d](https://github.com/RedTurtle/volto-io-comune-v2/commit/4ebd71d76adc8eb4388933315a3819ce1eaf79ca))
+
 ### Changelog
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
