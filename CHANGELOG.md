@@ -1,5 +1,12 @@
 
 
+## [0.1.5](https://github.com/RedTurtle/volto-io-comune-v2/compare/v0.1.4...v0.1.5) (2023-10-23)
+
+
+### Maintenance
+
+* deleted form validations in ServiceView ([0ddc3bd](https://github.com/RedTurtle/volto-io-comune-v2/commit/0ddc3bdcaa215588473d5317ada5c22f444b1be4))
+
 ## [0.1.4](https://github.com/RedTurtle/volto-io-comune-v2/compare/v0.1.3...v0.1.4) (2023-10-20)
 
 
