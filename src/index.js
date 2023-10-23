@@ -121,5 +121,7 @@ export default function applyConfig(voltoConfig) {
     },
   };
 
+  delete config.widgets.id.canale_digitale;
+
   return config;
 }
