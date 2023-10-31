@@ -1,5 +1,12 @@
 
 
+## [0.2.0](https://github.com/RedTurtle/volto-io-comune-v2/compare/v0.1.5...v0.2.0) (2023-10-31)
+
+
+### Features
+
+* added website url on pin listing map ([3418a5b](https://github.com/RedTurtle/volto-io-comune-v2/commit/3418a5b1a0e53084f77dd16e7d28d092c3c6a5d6))
+
 ## [0.1.5](https://github.com/RedTurtle/volto-io-comune-v2/compare/v0.1.4...v0.1.5) (2023-10-23)
 
 
