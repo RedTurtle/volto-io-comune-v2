@@ -1,5 +1,17 @@
 
 
+## [0.2.1](https://github.com/RedTurtle/volto-io-comune-v2/compare/v0.2.0...v0.2.1) (2023-11-03)
+
+
+### Bug Fixes
+
+* removed RichTextArtile ([73684a9](https://github.com/RedTurtle/volto-io-comune-v2/commit/73684a920a67d523325c9c3a0a6926e9a75306ce))
+
+
+### Maintenance
+
+* updated locales ([d9cac63](https://github.com/RedTurtle/volto-io-comune-v2/commit/d9cac634c5127fb9d24f20bd412674b35baea862))
+
 ## [0.2.0](https://github.com/RedTurtle/volto-io-comune-v2/compare/v0.1.5...v0.2.0) (2023-10-31)
 
 
