@@ -8,7 +8,7 @@ import { Icon } from 'design-comuni-plone-theme/components/ItaliaTheme';
 import {
   RichText,
   richTextHasContent,
-  RichTextArticle,
+  RichTextSection,
   ContactLink,
   OfficeCard,
 } from 'design-comuni-plone-theme/components/ItaliaTheme/View';
@@ -65,7 +65,7 @@ const EventoContatti = ({ content }) => {
     content?.telefono ||
     content?.email ||
     content?.fax ? (
-    <RichTextArticle
+    <RichTextSection
       tag_id="contatti"
       title={intl.formatMessage(messages.contatti)}
     >
@@ -158,7 +158,7 @@ const EventoContatti = ({ content }) => {
 
       {/* ---supportato da */}
       {getSupportatoDa()}
-    </RichTextArticle>
+    </RichTextSection>
   ) : (
     <></>
   );

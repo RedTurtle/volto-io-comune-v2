@@ -8,7 +8,7 @@ import { defineMessages, useIntl } from 'react-intl';
 import { Card, CardBody } from 'design-react-kit';
 
 import {
-  RichTextArticle,
+  RichTextSection,
   OfficeCard,
   RichText,
   richTextHasContent,
@@ -27,7 +27,7 @@ const ServizioContatti = ({ content }) => {
   return content?.ufficio_responsabile?.length > 0 ||
     content?.area?.length > 0 ||
     richTextHasContent(content?.contatti) ? (
-    <RichTextArticle
+    <RichTextSection
       tag_id="contatti"
       title={intl.formatMessage(messages.contatti)}
     >
@@ -58,7 +58,7 @@ const ServizioContatti = ({ content }) => {
           </Card>
         )}
       </div>
-    </RichTextArticle>
+    </RichTextSection>
   ) : (
     <></>
   );

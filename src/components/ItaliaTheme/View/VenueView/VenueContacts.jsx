@@ -5,7 +5,7 @@ import { Icon } from 'design-comuni-plone-theme/components/ItaliaTheme';
 
 import {
   richTextHasContent,
-  RichTextArticle,
+  RichTextSection,
   RichText,
   GenericCard,
   ContactLink,
@@ -71,7 +71,7 @@ const VenueContacts = ({ content }) => {
     content?.riferimento_fax_struttura ||
     content?.riferimento_mail_struttura ||
     content?.riferimento_pec_struttura ? (
-    <RichTextArticle
+    <RichTextSection
       tag_id="contatti"
       title={intl.formatMessage(messages.contatti)}
     >
@@ -237,7 +237,7 @@ const VenueContacts = ({ content }) => {
           )}
         </div>
       )}
-    </RichTextArticle>
+    </RichTextSection>
   ) : (
     <></>
   );
