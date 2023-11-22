@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Plone\n"
-"POT-Creation-Date: 2023-11-03T13:20:54.329Z\n"
+"POT-Creation-Date: 2023-11-06T13:18:21.016Z\n"
 "Last-Translator: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -24,12 +24,12 @@ msgstr ""
 msgid "contatti"
 msgstr ""
 
-#: components/ItaliaTheme/View/EventoView/EventoContatti
+#: components/ItaliaTheme/View/EventoView/EventoContattiOrganizzatoreInterno
 # defaultMessage: Contatti interni
 msgid "contatti_interni"
 msgstr ""
 
-#: components/ItaliaTheme/View/EventoView/EventoContatti
+#: components/ItaliaTheme/View/EventoView/EventoContattiWebSite
 # defaultMessage: Sito web dell'evento
 msgid "event_web_site"
 msgstr ""
@@ -39,7 +39,7 @@ msgstr ""
 msgid "pec"
 msgstr ""
 
-#: components/ItaliaTheme/View/EventoView/EventoContatti
+#: components/ItaliaTheme/View/EventoView/EventoContattiOrganizzatoreEsterno
 # defaultMessage: Reperibilità oraria:
 msgid "reperibilita"
 msgstr ""
@@ -89,7 +89,7 @@ msgstr ""
 msgid "struttura_responsabile"
 msgstr ""
 
-#: components/ItaliaTheme/View/EventoView/EventoContatti
+#: components/ItaliaTheme/View/EventoView/EventoContattiSupportatoDa
 # defaultMessage: Con il supporto di
 msgid "supported_by"
 msgstr ""

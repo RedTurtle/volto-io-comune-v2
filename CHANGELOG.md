@@ -1,5 +1,17 @@
 
 
+## [0.3.0](https://github.com/RedTurtle/volto-io-comune-v2/compare/v0.2.1...v0.3.0) (2023-11-06)
+
+
+### Features
+
+* split EventoContatti ([badd6ab](https://github.com/RedTurtle/volto-io-comune-v2/commit/badd6ab0f73c579e38897ff2e01c3a58bb0c76b5))
+
+
+### Maintenance
+
+* i18n ([2b7ee9f](https://github.com/RedTurtle/volto-io-comune-v2/commit/2b7ee9f490c72914a342f7d286713ec56ce1091e))
+
 ## [0.2.1](https://github.com/RedTurtle/volto-io-comune-v2/compare/v0.2.0...v0.2.1) (2023-11-03)
 
 
