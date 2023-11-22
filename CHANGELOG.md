@@ -1,5 +1,12 @@
 
 
+## [0.3.1](https://github.com/RedTurtle/volto-io-comune-v2/compare/v0.3.0...v0.3.1) (2023-11-22)
+
+
+### Bug Fixes
+
+* config ([7f92f8a](https://github.com/RedTurtle/volto-io-comune-v2/commit/7f92f8aa39b914abf795867ad0aa9333b8e0f676))
+
 ## [0.3.0](https://github.com/RedTurtle/volto-io-comune-v2/compare/v0.2.1...v0.3.0) (2023-11-06)
 
 
