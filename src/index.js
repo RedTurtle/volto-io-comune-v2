@@ -1,4 +1,3 @@
-import applyItaliaConfig from 'design-comuni-plone-theme/config/italiaConfig';
 import '@plone/volto/config';
 
 import {
