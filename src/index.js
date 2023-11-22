@@ -46,9 +46,7 @@ import {
   VenueContacts,
 } from 'volto-io-comune-v2/components/ItaliaTheme/View';
 
-export default function applyConfig(voltoConfig) {
-  let config = applyItaliaConfig(voltoConfig);
-
+export default function applyConfig(config) {
   config.settings.italiaThemeViewsConfig = {
     ...config.settings.italiaThemeViewsConfig,
     Event: {
