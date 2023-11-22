@@ -1,5 +1,18 @@
 
 
+## [0.3.2](https://github.com/RedTurtle/volto-io-comune-v2/compare/v0.3.0...v0.3.2) (2023-11-22)
+
+
+### Bug Fixes
+
+* config ([7f92f8a](https://github.com/RedTurtle/volto-io-comune-v2/commit/7f92f8aa39b914abf795867ad0aa9333b8e0f676))
+* version ([e0ec588](https://github.com/RedTurtle/volto-io-comune-v2/commit/e0ec588ee9570e5a96fc1eb8c024cb01b770f6f2))
+
+
+### Maintenance
+
+* removed unused import ([6567a5f](https://github.com/RedTurtle/volto-io-comune-v2/commit/6567a5f1463bd15395ab134beb724ac319101c62))
+
 ## [0.3.0](https://github.com/RedTurtle/volto-io-comune-v2/compare/v0.2.1...v0.3.0) (2023-11-06)
 
 
