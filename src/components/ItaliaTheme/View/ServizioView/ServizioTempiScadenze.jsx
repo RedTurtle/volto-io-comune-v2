@@ -4,17 +4,17 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-
+import { injectLazyLibs } from '@plone/volto/helpers/Loadable/Loadable';
 import {
   RichTextSection,
   richTextHasContent,
 } from 'design-comuni-plone-theme/components/ItaliaTheme/View';
 import { ServizioTempiScadenze as ServizioTempiScadenze_V3 } from 'design-comuni-plone-theme/components/ItaliaTheme/View';
 
-const ServizioTempiScadenze = ({ content }) => {
+const ServizioTempiScadenze = ({ content, moment }) => {
   return content?.tempi_e_scadenze &&
     richTextHasContent(content?.tempi_e_scadenze) ? (
-    <ServizioTempiScadenze_V3 content={content} />
+    <ServizioTempiScadenze_V3 content={content} moment={moment} />
   ) : (
     <></>
   );
@@ -27,4 +27,4 @@ ServizioTempiScadenze.propTypes = {
     }),
   }),
 };
-export default ServizioTempiScadenze;
+export default injectLazyLibs(['moment'])(ServizioTempiScadenze);
