@@ -1,5 +1,13 @@
 
 
+## [0.3.3](https://github.com/RedTurtle/volto-io-comune-v2/compare/v0.3.2...v0.3.3) (2024-01-30)
+
+
+### Bug Fixes
+
+* ServizioTempiEScadenze ([7e9176f](https://github.com/RedTurtle/volto-io-comune-v2/commit/7e9176ffb94f67caed78d81e8a9241c0e782b006))
+* validate slate fields in blocksFieldIsEmpty ([3e63a4e](https://github.com/RedTurtle/volto-io-comune-v2/commit/3e63a4e3be9da66757a26a038946d802aa9b2b78))
+
 ## [0.3.2](https://github.com/RedTurtle/volto-io-comune-v2/compare/v0.3.0...v0.3.2) (2023-11-22)
 
 
