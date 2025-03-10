@@ -20,17 +20,18 @@ const PersonaContatti = ({ content }) => {
   const intl = useIntl();
 
   //Validazione per evitare errori in caso di contatti non validi o vuoti
-  const validContactGroups = Array.isArray(content.contact_info)
-    ? content.contact_info.filter(
-        (contact_array) =>
-          Array.isArray(contact_array) &&
-          contact_array.some(
-            (contact) =>
-              Array.isArray(contact.value_punto_contatto) &&
-              contact.value_punto_contatto.length > 0,
-          ),
-      )
-    : [];
+  const validContactGroups =
+    content.contact_info && Array.isArray(content.contact_info)
+      ? content.contact_info.filter(
+          (contact_array) =>
+            Array.isArray(contact_array) &&
+            contact_array.some(
+              (contact) =>
+                Array.isArray(contact.value_punto_contatto) &&
+                contact.value_punto_contatto.length > 0,
+            ),
+        )
+      : [];
 
   return validContactGroups.length > 0 ? (
     <RichTextSection
