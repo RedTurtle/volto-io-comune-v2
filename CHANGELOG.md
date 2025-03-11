@@ -1,5 +1,14 @@
 
 
+## [0.3.4](https://github.com/RedTurtle/volto-io-comune-v2/compare/v0.3.3...v0.3.4) (2025-03-11)
+
+
+### Bug Fixes
+
+* clean ([3caaf7b](https://github.com/RedTurtle/volto-io-comune-v2/commit/3caaf7b58e240a9aa03fe49ef681cf1c1a13b6ff))
+* PersonaContatti with data validation ([70e6c12](https://github.com/RedTurtle/volto-io-comune-v2/commit/70e6c12c8879944d024b39bf3cab0baf9c5fd6aa))
+* validation ([c11c5a8](https://github.com/RedTurtle/volto-io-comune-v2/commit/c11c5a867cabbbd15f7f92fd5f2e099287b92736))
+
 ## [0.3.3](https://github.com/RedTurtle/volto-io-comune-v2/compare/v0.3.2...v0.3.3) (2024-01-30)
 
 
