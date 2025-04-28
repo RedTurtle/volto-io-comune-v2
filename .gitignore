@@ -1,9 +1,10 @@
+.vscode
+
 node_modules
 project
 addon-testing-project
 .changelog.draft
 build
-.vscode/
 
 # yarn 3
 .pnp.*
