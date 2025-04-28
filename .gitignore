@@ -11,6 +11,9 @@ src/addons
 
 coverage
 node_modules
+project
+addon-testing-project
+.changelog.draft
 build
 cache
 .env.local
