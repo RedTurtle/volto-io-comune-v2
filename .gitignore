@@ -1,10 +1,33 @@
+.vscode/
+.history
+logs
+*.log
+npm-debug.log*
+.DS_Store
+src/addons
+/project/
+/addon-testing-project/
+.eslintrc.js
+
+coverage
 node_modules
 project
 addon-testing-project
 .changelog.draft
 build
+cache
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# yarn 3
+data
+omelette
+var
+
+locales/*.json
+
+# Yarn 3
 .pnp.*
 .yarn/*
 !.yarn/patches
