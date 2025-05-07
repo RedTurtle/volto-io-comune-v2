@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Plone\n"
-"POT-Creation-Date: 2023-11-06T13:18:21.016Z\n"
+"POT-Creation-Date: 2025-05-07T07:43:26.944Z\n"
 "Last-Translator: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -29,14 +29,29 @@ msgstr ""
 msgid "contatti_interni"
 msgstr ""
 
+#: components/ItaliaTheme/View/UOView/UOContactsParts/UOContactsContacts
+# defaultMessage: E-mail
+msgid "email_sede"
+msgstr ""
+
 #: components/ItaliaTheme/View/EventoView/EventoContattiWebSite
 # defaultMessage: Sito web dell'evento
 msgid "event_web_site"
 msgstr ""
 
+#: components/ItaliaTheme/View/UOView/UOContactsParts/UOContactsContacts
+# defaultMessage: Fax
+msgid "fax_sede"
+msgstr ""
+
 #: components/ItaliaTheme/View/VenueView/VenueContacts
 # defaultMessage: PEC
 msgid "pec"
+msgstr ""
+
+#: components/ItaliaTheme/View/UOView/UOContactsParts/UOContactsContacts
+# defaultMessage: PEC
+msgid "pec_sede"
 msgstr ""
 
 #: components/ItaliaTheme/View/EventoView/EventoContattiOrganizzatoreEsterno
@@ -92,4 +107,9 @@ msgstr ""
 #: components/ItaliaTheme/View/EventoView/EventoContattiSupportatoDa
 # defaultMessage: Con il supporto di
 msgid "supported_by"
+msgstr ""
+
+#: components/ItaliaTheme/View/UOView/UOContactsParts/UOContactsContacts
+# defaultMessage: Sito web
+msgid "website"
 msgstr ""
