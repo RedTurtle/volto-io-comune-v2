@@ -1,5 +1,21 @@
 
 
+## [0.4.0](https://github.com/RedTurtle/volto-io-comune-v2/compare/v0.3.4...v0.4.0) (2025-05-07)
+
+
+### Features
+
+* custom UOContacts to show some old V2 contact info ([9acfb0a](https://github.com/RedTurtle/volto-io-comune-v2/commit/9acfb0ab18f500f6385cbf1163595e67636e7cbf))
+
+
+### Maintenance
+
+* add .vscode/ to gitignore ([3729843](https://github.com/RedTurtle/volto-io-comune-v2/commit/3729843a1e0721094c36d8ca2000d5e610167409))
+* added ([2febf15](https://github.com/RedTurtle/volto-io-comune-v2/commit/2febf150e8d134feeee8c64105b7d4bd33f5eba1))
+* extended gitignore ([a692cda](https://github.com/RedTurtle/volto-io-comune-v2/commit/a692cda3c7699bc69398979244da8172b78c962f))
+* i18n ([02007d8](https://github.com/RedTurtle/volto-io-comune-v2/commit/02007d8e110492dcb6a2d41d4d81fa85a4d90a13))
+* removed vscode code ([2da4be1](https://github.com/RedTurtle/volto-io-comune-v2/commit/2da4be1c213333f454e416e471ff642ec1a3c798))
+
 ## [0.3.4](https://github.com/RedTurtle/volto-io-comune-v2/compare/v0.3.3...v0.3.4) (2025-03-11)
 
 
