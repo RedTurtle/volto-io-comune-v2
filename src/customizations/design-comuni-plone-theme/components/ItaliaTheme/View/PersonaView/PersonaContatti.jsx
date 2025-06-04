@@ -4,10 +4,9 @@
 
 import React from 'react';
 import { defineMessages, useIntl } from 'react-intl';
-import {
-  RichTextSection,
-  ContactsCard,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+import { RichTextSection } from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+
+import ContactsCardPerson from 'volto-io-comune-v2/components/ItaliaTheme/View/Commons/ContactsCardPerson';
 
 const messages = defineMessages({
   contacts: {
@@ -40,7 +39,7 @@ const PersonaContatti = ({ content }) => {
     >
       {validContactGroups.map((contact_array) =>
         contact_array.map((contact) => (
-          <ContactsCard contact={contact} key={contact['@id']} />
+          <ContactsCardPerson contact={contact} key={contact['@id']} />
         )),
       )}
     </RichTextSection>
