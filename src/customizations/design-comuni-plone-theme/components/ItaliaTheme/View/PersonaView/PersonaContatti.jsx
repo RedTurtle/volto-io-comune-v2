@@ -1,5 +1,6 @@
 /**Customizations:
  * - Validazione per evitare errori in caso di contatti non validi o vuoti
+ * - Added ContactsCardPerson in the place of ContactsCard of v3
  */
 
 import React from 'react';
