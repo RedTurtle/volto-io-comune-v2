@@ -1,5 +1,13 @@
 
 
+## [0.4.1](https://github.com/RedTurtle/volto-io-comune-v2/compare/v0.4.0...v0.4.1) (2025-06-06)
+
+
+### Maintenance
+
+* updated Contacts Card with v2 person params ([8eb6c19](https://github.com/RedTurtle/volto-io-comune-v2/commit/8eb6c195cbf604862902d5e7555d26fc7809f0cb))
+* updated customizations info ([79e7a0a](https://github.com/RedTurtle/volto-io-comune-v2/commit/79e7a0af5cc11788173a3f1acfb8ac94bf825095))
+
 ## [0.4.0](https://github.com/RedTurtle/volto-io-comune-v2/compare/v0.3.4...v0.4.0) (2025-05-07)
 
 
