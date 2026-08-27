@@ -1,7 +1,14 @@
+/*
+ * CUSTOMIZATION
+ * Originale: https://github.com/RedTurtle/design-comuni-plone-theme/blob/b4c657c7a1caecd97429567651218398c4863a57/src/components/ItaliaTheme/View/UOView/UOContacts.jsx
+ * Allineato a: design-comuni-plone-theme 13.x (invariato rispetto a 12.15.0 nel punto customizzato)
+ *
+ * Modifiche introdotte:
+ * - aggiunta una nuova sezione per mostrare le informazioni di contatto (telefono, fax, email, web e pec)
+ */
+
 /**
  * UOContacts component.
- * custom:
- * - Added a new section for displaying contact information(telefono, fax, email, web and pec).
  */
 
 import React from 'react';
