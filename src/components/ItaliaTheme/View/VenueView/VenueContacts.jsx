@@ -86,7 +86,7 @@ const VenueContacts = ({ content }) => {
           noWrapper={true}
           tag="div"
         >
-          <CardTitle tag="h5">
+          <CardTitle tag="div">
             <Icon icon="it-telephone" padding={true} />
           </CardTitle>
           <CardBody tag="div" className={'card-body pr-3'}>
