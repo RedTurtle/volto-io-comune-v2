@@ -1,5 +1,12 @@
 
 
+## [0.4.2](https://github.com/RedTurtle/volto-io-comune-v2/compare/v0.4.1...v0.4.2) (2026-08-31)
+
+
+### Bug Fixes
+
+* remove heading semantics from decorative contact icon (bug[#77795](https://github.com/RedTurtle/volto-io-comune-v2/issues/77795)) ([a120086](https://github.com/RedTurtle/volto-io-comune-v2/commit/a1200862d2d3a5b032d7de32c3882d44f255267d))
+
 ## [0.4.1](https://github.com/RedTurtle/volto-io-comune-v2/compare/v0.4.0...v0.4.1) (2025-06-06)
 
 
