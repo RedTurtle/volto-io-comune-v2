@@ -1,5 +1,9 @@
 /*
- * CUSTOMIZATION:
+ * CUSTOMIZATION
+ * Originale: https://github.com/RedTurtle/design-comuni-plone-theme/blob/b4c657c7a1caecd97429567651218398c4863a57/src/helpers/FormValidation/FormValidationHelpers.js
+ * Allineato a: design-comuni-plone-theme 13.x (invariato rispetto a 12.15.0 nel punto customizzato)
+ *
+ * Modifiche introdotte:
  * - eliminata validazione nei campi "canale fisico", "canale digitale" e "link al canale"
  */
 

@@ -1,6 +1,11 @@
-/**Customizations:
- * - Validazione per evitare errori in caso di contatti non validi o vuoti
- * - Added ContactsCardPerson in the place of ContactsCard of v3
+/*
+ * CUSTOMIZATION
+ * Originale: https://github.com/RedTurtle/design-comuni-plone-theme/blob/b4c657c7a1caecd97429567651218398c4863a57/src/components/ItaliaTheme/View/PersonaView/PersonaContatti.jsx
+ * Allineato a: design-comuni-plone-theme 13.x (invariato rispetto a 12.15.0 nel punto customizzato)
+ *
+ * Modifiche introdotte:
+ * - validazione per evitare errori in caso di contatti non validi o vuoti
+ * - usa ContactsCardPerson al posto di ContactsCard (v3)
  */
 
 import React from 'react';

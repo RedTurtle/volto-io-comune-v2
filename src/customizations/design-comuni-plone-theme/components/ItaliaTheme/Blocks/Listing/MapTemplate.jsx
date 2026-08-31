@@ -1,7 +1,16 @@
 /*
-* CUSTOMIZATIONS:
-- aggiunto link esterno in onMarkerClick se è stato inserito il parametro "web" nel CT Luogo
-*/
+ * CUSTOMIZATION
+ * Originale: https://github.com/RedTurtle/design-comuni-plone-theme/blob/b4c657c7a1caecd97429567651218398c4863a57/src/components/ItaliaTheme/Blocks/Listing/MapTemplate.jsx
+ * Allineato a: design-comuni-plone-theme 13.x (invariato rispetto a 12.15.0 nel punto customizzato)
+ *
+ * Modifiche introdotte:
+ * - aggiunto link esterno in onMarkerClick se è stato inserito il parametro "web" nel CT Luogo
+ *
+ * Nota: rer-theme sovrascrive ulteriormente questo stesso file (vedi
+ * src/customizations/design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/MapTemplate.jsx
+ * in rer-theme) con filtri per categoria, popup di dettaglio e una gestione del link
+ * più ricca — quella versione è quella effettivamente attiva quando rer-theme è installato.
+ */
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { defineMessages, useIntl } from 'react-intl';
