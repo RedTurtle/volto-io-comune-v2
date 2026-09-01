@@ -1,5 +1,14 @@
 
 
+## [0.4.3](https://github.com/RedTurtle/volto-io-comune-v2/compare/v0.4.2...v0.4.3) (2026-09-01)
+
+
+### Bug Fixes
+
+* check plaintext directly to avoid empty struttura responsabile heading (bug[#77820](https://github.com/RedTurtle/volto-io-comune-v2/issues/77820)) ([3ff8b04](https://github.com/RedTurtle/volto-io-comune-v2/commit/3ff8b045f5c4cac9adc5b0f33ffa91ef37bae8ee))
+* drop redundant hasVisibleRichText, use richTextHasContent ([f5adf9e](https://github.com/RedTurtle/volto-io-comune-v2/commit/f5adf9eb28624cbd587a090c22806530a5403ed0))
+* pass data prop to RichText instead of content (bug[#77820](https://github.com/RedTurtle/volto-io-comune-v2/issues/77820)) ([e2807c8](https://github.com/RedTurtle/volto-io-comune-v2/commit/e2807c87efec399dc260122b479ed1842a36bc2b))
+
 ## [0.4.2](https://github.com/RedTurtle/volto-io-comune-v2/compare/v0.4.1...v0.4.2) (2026-08-31)
 
 
