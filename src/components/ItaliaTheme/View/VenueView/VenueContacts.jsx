@@ -4,6 +4,7 @@ import { Card, CardBody, CardTitle, CardText } from 'design-react-kit';
 import { Icon } from 'design-comuni-plone-theme/components/ItaliaTheme';
 
 import {
+  richTextHasContent,
   RichTextSection,
   RichText,
   GenericCard,
@@ -57,9 +58,6 @@ const messages = defineMessages({
   },
 });
 
-const hasVisibleRichText = (data) =>
-  Object.values(data?.blocks ?? {}).some((block) => block?.plaintext?.trim());
-
 const VenueContacts = ({ content }) => {
   const intl = useIntl();
 
@@ -68,7 +66,7 @@ const VenueContacts = ({ content }) => {
     content?.pec ||
     content?.web ||
     content?.struttura_responsabile_correlati?.length > 0 ||
-    hasVisibleRichText(content?.struttura_responsabile) ||
+    richTextHasContent(content?.struttura_responsabile) ||
     content?.riferimento_telefonico_struttura ||
     content?.riferimento_fax_struttura ||
     content?.riferimento_mail_struttura ||
@@ -142,7 +140,7 @@ const VenueContacts = ({ content }) => {
     Se è presente una struttura_responsabile_correlati metto quella altrimenti metto una card con i campi singoli, se presenti
   */}
       {(content?.struttura_responsabile_correlati?.length > 0 ||
-        hasVisibleRichText(content?.struttura_responsabile) ||
+        richTextHasContent(content?.struttura_responsabile) ||
         content?.riferimento_telefonico_struttura ||
         content?.riferimento_fax_struttura ||
         content?.riferimento_mail_struttura ||
@@ -160,14 +158,14 @@ const VenueContacts = ({ content }) => {
           ) : (
             //STRUTTURA RESPONSABILE
             <>
-              {(hasVisibleRichText(content?.struttura_responsabile) ||
+              {(richTextHasContent(content?.struttura_responsabile) ||
                 content?.riferimento_telefonico_struttura ||
                 content?.riferimento_fax_struttura ||
                 content?.riferimento_mail_struttura ||
                 content?.riferimento_pec_struttura) && (
                 <Card className="genericcard card card-teaser shadow p-4 mt-3 rounded">
                   <CardBody>
-                    {hasVisibleRichText(content?.struttura_responsabile) && (
+                    {richTextHasContent(content?.struttura_responsabile) && (
                       <CardTitle>
                         <h5 className="card-title">
                           <RichText data={content.struttura_responsabile} />
