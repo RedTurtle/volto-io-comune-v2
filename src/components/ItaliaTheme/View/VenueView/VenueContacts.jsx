@@ -169,9 +169,9 @@ const VenueContacts = ({ content }) => {
                   <CardBody>
                     {richTextHasContent(content?.struttura_responsabile) && (
                       <CardTitle>
-                        <h3 className="h5 card-title">
+                        <h4 className="h5 card-title">
                           <RichText data={content.struttura_responsabile} />
-                        </h3>
+                        </h4>
                       </CardTitle>
                     )}
                     <CardText>
