@@ -146,7 +146,9 @@ const VenueContacts = ({ content }) => {
         content?.riferimento_mail_struttura ||
         content?.riferimento_pec_struttura) && (
         <div className="mt-5 mb-5">
-          <h5>{intl.formatMessage(messages.struttura_responsabile)}</h5>
+          <h3 className="h5">
+            {intl.formatMessage(messages.struttura_responsabile)}
+          </h3>
 
           {content?.struttura_responsabile_correlati?.length > 0 ? (
             //STRUTTURE RESPONSABILI CORRELATE
@@ -167,9 +169,9 @@ const VenueContacts = ({ content }) => {
                   <CardBody>
                     {richTextHasContent(content?.struttura_responsabile) && (
                       <CardTitle>
-                        <h5 className="card-title">
+                        <h4 className="h5 card-title">
                           <RichText data={content.struttura_responsabile} />
-                        </h5>
+                        </h4>
                       </CardTitle>
                     )}
                     <CardText>
