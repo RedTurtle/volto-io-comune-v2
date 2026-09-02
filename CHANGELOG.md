@@ -1,5 +1,13 @@
 
 
+## [0.4.4](https://github.com/RedTurtle/volto-io-comune-v2/compare/v0.4.3...v0.4.4) (2026-09-02)
+
+
+### Bug Fixes
+
+* correct heading level hierarchy in VenueContacts ([a6cf527](https://github.com/RedTurtle/volto-io-comune-v2/commit/a6cf527d8efc902492bf263b8485b588268fad4f))
+* use h4 for struttura responsabile card title ([d15f091](https://github.com/RedTurtle/volto-io-comune-v2/commit/d15f0911e10aab1d78e7a53d082ca6fb5bb63d02))
+
 ## [0.4.3](https://github.com/RedTurtle/volto-io-comune-v2/compare/v0.4.2...v0.4.3) (2026-09-01)
 
 
